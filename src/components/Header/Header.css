@@ -1,0 +1,129 @@
+.logo {
+  height: 30px;
+  width: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ position: relative;
+}
+.faicon{
+ font-size: 20px;
+ width: auto;
+display: none;
+}
+.containers{
+ padding:0 101px !important;
+  height: 70px !important;
+  max-width: 1710px !important;
+  box-shadow: rgb(0 0 0 / 7%) 0px 10px 20px 0px !important;
+  display: flex;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 !important;
+}
+.pages-nav{
+ display: flex;
+ margin-left: 1rem;
+ width: max-content;
+ background: #fff;
+}
+.page-nav{
+ text-decoration: none;
+ padding-left: 2rem;
+ color: #000;
+}
+.page-nav:hover{
+ color: #febc22;
+}
+.page-nav:focus{
+ color: #febc22;
+}
+.page-nav h2{
+ font-size: 18px;
+}
+@media screen and (max-width:1500px) {
+ .faicon{
+  display: block;
+  position: absolute;
+  right: 7rem;
+  top: 1.5rem;
+ }
+ .container{
+ align-items: flex-start;
+}
+.logo{
+ margin: 1rem 0;
+}
+.pages-nav{
+ display:block;
+ margin-top: 4rem;
+ position: fixed;
+ right: 0;
+ height: 100vh;
+ padding: 0 1rem;
+ z-index: 5 ;
+ transform: translateX(100%);
+ transition:  transform .3s ease-in-out;
+ width:270px;
+ box-shadow: rgb(0 0 0 / 13%) -10px 20px 20px 0px !important;
+}
+.active{
+  display: block;
+  transform: translate(0%);
+}
+.footer-box{
+  padding: 100px 2rem !important;
+
+}
+.constructor-comp .row,.service-comp .row,.service-comp ,.product-cont .row,.us .row,.footer-box .row,.productions .row,.wdth .row{
+  padding: 0 !important;
+}
+.headb-title{
+  font-size: 30px !important;
+}
+.product-cont{
+  padding: 0 !important;
+}
+ .product-btn{
+  text-align: center !important;
+}
+.headb-text{
+  font-size: 20px;
+}
+.head-boxs{
+  padding: 0 20px!important;
+}
+div .us{
+  padding: 0 1rem;
+}
+.produc-cont-text,.serv-text{
+  font-size: 15px !important;
+}
+.product-comp-btn{
+font-size: 15px !important;
+}
+.constructor-comp .partner-title {
+  font-size: 4px;
+}
+.product-btn{
+  font-size: 15px;
+  text-align: center !important;
+}
+.service-comp .row{
+  width: 100%;
+}
+.servic-cont{
+  padding: 0 1rem;
+}
+.constructor-comp .calimb-lift{
+  font-size: 20px;
+}
+}

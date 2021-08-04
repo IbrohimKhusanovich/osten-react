@@ -1,0 +1,25 @@
+.us{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 0 8rem;
+}
+.us-title{
+ margin-top: 5rem;
+ font-size: 2.5rem;
+ padding: 1rem 5rem;
+ font-weight: 700;
+ border-bottom: 3px solid ;
+}
+.imgs{
+ width: 100%;
+ height: auto;
+ margin-bottom: 20px;
+}
+.us-contents{
+ font-size: 20px;
+}
+.us-contents div p{
+ margin-top: 20px;
+}

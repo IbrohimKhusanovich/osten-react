@@ -1,0 +1,37 @@
+.footer-box{
+ background-color: #09152d;
+color: #fff;
+padding: 100px 5rem;
+}
+.foot-text1,.foot-text3,.foot-text4,.foot-text5{
+ font-size: 20px;
+ margin-bottom: 1rem;
+}
+
+.foot-text2{
+ font-size: 18px;
+}
+.icon-soc{
+font-size: 24px;
+    width: auto;
+    margin-right: 15px;
+}
+.social-icon{
+ margin-top: 2rem;
+}
+.foot-ancer{
+ font-size: 18px;
+ width: max-content;
+ margin-bottom: 1rem;
+ padding: 4px 0;
+ color: #fff;
+ text-decoration: none;
+ border-bottom: 1px solid #fff;
+}
+.foot-ancer:hover{
+ color: #d8a72d;
+ border-bottom: 1px solid #d8a72d;
+}
+.contact-menu{
+ font-size: 18px;
+}

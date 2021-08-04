@@ -1,0 +1,34 @@
+.new-lifts{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.new-lifts .cabin-lift{
+ margin-bottom: 6rem;
+}
+.card-box{
+ overflow: hidden;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.nlift-img{
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+ object-position: center center;
+}
+.row{
+ flex-wrap: wrap !important;
+ padding: 0 6rem !important;
+}
+.nlift-title{
+ line-height: 1.2;
+ font-size: 1.5rem;
+ margin: 1.5rem;
+ overflow: hidden;
+ height: 60px;
+ text-align: center;
+}

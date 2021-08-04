@@ -1,0 +1,150 @@
+.constructor-comp{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.constr-inpt{
+ display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.constr-img{
+ width: 100%;
+ height: auto;
+
+}
+.constr-lift{
+ position: sticky;
+ top: 90px;
+}
+.constructor-comp .row{
+ margin: 0 !important;
+}
+.constr-text-label{
+ padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+
+}
+.constr-text{
+ font-size: 20px;
+    font-weight: 500;
+}
+.constr-title{
+ margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.form-group{
+ display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+}
+.oboy{
+ height: 90px;
+    margin: 5px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 1px 4px 0px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    width: auto;
+}
+.oboy:hover{
+ transform: scale(1.03,1.03);
+}
+.ty-fl{
+ font-size: 18px;
+ padding: 2rem 1rem;
+ cursor: pointer;
+ font-weight: 600;
+ margin: 0 1rem;
+ box-shadow: rgb(0 0 0 / 27%) 0px 2px 5px 0px;
+ transform: translateY(-1px) scale(1.02);
+}
+.type-floor{
+ display: flex;
+}
+.ty-fl:hover{
+ transform: scale(1.03,1.03);
+}
+.form-btn{
+ font-weight: 700;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: 0px;
+    border: 0px;
+    background-color: rgb(233, 157, 1);
+    color: #fff;
+    border-radius: 6px;
+width: 200px;
+margin: auto;
+}
+
+.form{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.constr-lift-ch{
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: auto;
+ width: 100%;
+}
+.constr-lift-b{
+    position: absolute;
+    left: 0;
+    top: -10%;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+}
+.constr-lift-g{
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: auto;
+ width: 100%;
+ z-index: 1;
+}
+.constr-lift-h{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+    z-index: 2;
+}
+.constr-lift-r{
+    position: absolute;
+    top: 11.3%;
+    width: 100%;
+    transform: scale(1.29,1.30);
+    height: auto;
+    left: -2.5%;
+    z-index: 0;
+}
+.constr-lift-l{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    transform: scale(1.35,1.35);
+    height: auto;
+    top: 13%;
+    left: -4%;
+}
