@@ -89,8 +89,11 @@ display: none;
 .headb-title{
   font-size: 30px !important;
 }
-.product-cont{
+.product-cont,.new-lifts .row{
   padding: 0 !important;
+}
+.map-cont{
+  width: 100% !important;
 }
  .product-btn{
   text-align: center !important;
@@ -124,6 +127,6 @@ font-size: 15px !important;
   padding: 0 1rem;
 }
 .constructor-comp .calimb-lift{
-  font-size: 20px;
+  font-size: 20px !important;
 }
 }

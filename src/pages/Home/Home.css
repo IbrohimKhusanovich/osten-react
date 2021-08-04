@@ -71,7 +71,7 @@ position: relative;
  font-size: 11px !important;
 }
 .us-service-text,.res-title,.cabin-lift,.pr-title,.comments-title,.partner-title{
- font-size: 30px !important;
+ font-size: 21px !important;
 }
 .containers{
  padding: 0 1rem !important;
@@ -79,6 +79,15 @@ position: relative;
 .faicon{
  position: absolute !important;
  right: 1rem;
+}
+.emails{
+ display: block !important;
+}
+.contact-texts{
+ padding: 0 1rem !important;
+}
+.contact-form {
+ width: 80% !important;
 }
 }
 @media screen and (max-width:400px) {
@@ -90,7 +99,7 @@ position: relative;
  font-size: 3em !important;
 }
 .us-service-text,.res-title,.cabin-lift,.pr-title,.comments-title,.partner-title{
- font-size: 20px !important;
+ font-size: 16px !important;
 }
 .service{
  width: 300px !important;
